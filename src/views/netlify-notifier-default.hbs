@@ -1,0 +1,22 @@
+<link href="https://fonts.googleapis.com/css2?family=Rosarivo&family=Elsie&family=Inknut+Antiqua&family=Bentham&family=Josefin+Slab:wght@700&family=Monoton&family=Neucha&family=Major+Mono+Display&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+<table width="100%" style="background-color: transparent; font-size: 14px; font-family: 'Rosarivo', serif;">
+    <tr>
+        <td width="2%"></td>
+        <td width="96%">
+            <table width="100%" style="background-color: #fff; padding: 20px; border: 1px solid #dfdfdf;">
+                <tr><td><h1 style="font-family: 'Inknut Antiqua', serif; margin: 0px;">DELTA NOTIFIER</h1></td></tr>
+                <tr><td><hr></td></tr>
+                <tr><td><h3>Hello,</h3></td></tr>
+                <tr><td><b>{{appName}}</b> app updated!<br><br></td></tr>
+                <tr><td>Click <a target="blank" href="{{appLink}}">here</a> to logon to the app</td></tr>
+                <tr><td><br>App Details:<br><br></td></tr>
+                <tr><td>Updated By: {{deployedBy}}</td></tr>
+                <tr><td>Updated At: {{updatedAt}}</b><br><br></td></tr>
+                <tr><td>You received this email, because of you are added as a notification recipient for the <b>{{appName}}</b> app. If you think this was a mistake please ignore this email.<br><br></td></tr>
+                <tr><td>Regards,<br>Admin</td></tr>
+            </table>
+            {{!-- <p align="center">Click <a href="{{unsubscribeLink}}">here</a> to stop receiving future mails.</p> --}}
+        </td>
+        <td width="2%"></td>
+    </tr>
+</table>
